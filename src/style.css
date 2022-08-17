@@ -1,0 +1,49 @@
+.field{
+  background-color: rgb(87, 235, 71);
+}
+.position{
+  display: flex;
+  justify-content: center;
+}
+.player{
+  width: 220px;
+  border: 2px solid white;
+  margin: 10px;
+  background-color: rgb(238, 247, 255);
+  border-radius: 5px;
+}
+.FW{
+  background-color: rgba(255, 0, 0, 0.797);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.MF{
+  background-color: rgba(20, 224, 58, 0.797);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.DF{
+  background-color: rgba(19, 152, 253, 0.797);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.GK{
+  background-color: rgba(255, 192, 55, 0.797);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.form{
+  margin: 10px 0;
+}
