@@ -90,10 +90,12 @@ const Layout = () => {
   const remove = (id) => {
     setLists(lists.filter((list) => list.id !== id));
   };
+
+    const [toggle, setToggle] = useState(true)
   return (
     <div>
       <h1>My Football Squad</h1>
-      <Form
+      {toggle?<Form
         input={input}
         firstname={firstname}
         lastname={lastname}
@@ -102,7 +104,10 @@ const Layout = () => {
         nationality={nationality}
         onChangeHandler={onChangeHandler}
         onSubmitHandler={onSubmitHandler}
-      />
+      />:null}
+      <button onClick={()=>{
+        setToggle(!toggle)
+      }}>↕️</button>
       <Lists lists={lists} remove={remove} />
     </div>
   );

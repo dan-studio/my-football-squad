@@ -4,7 +4,7 @@ import Player from './Player';
 const Lists = ({ lists, remove }) => {
   return (
     <div className="field">
-      <h2>Your Squad is
+      <h2 className='subtitle'>Your Squad is
       </h2>
       <h1>
         {lists.filter((list) => list.position === "DF").length}-
